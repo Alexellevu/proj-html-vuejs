@@ -29,17 +29,33 @@ nav {
   font-weight: bolder;
   margin: 5px 18px;
   padding-bottom: 10px;
+  color: #1E1E1E;
 }
 .link_nav > a:hover {
-  border-bottom: 2px solid black;
+  color: #377DFF;
+  border-bottom: 2px solid #377DFF;
 }
 
 .icons {
   display: inline;
   margin: 5px 30px;
+  position: relative;
 }
 .icons > a {
   margin: 10px;
+}
+
+.cart_numb {
+  background-color: #377DFF;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.5px 6px;
+  width: 2px;
+  height: 1px;
+  color: white;
+  position: relative;
+  bottom: 10px;
+  right: 7px;
 }
 
 .blue_button {
@@ -50,6 +66,9 @@ nav {
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
+}
+.blue_button:hover {
+  background-color: #1E1E1E;
 }
 
 /* jumbotron */
