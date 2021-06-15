@@ -1,1 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.logo > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.start_button {
+  padding: 8px;
+  background-color: #377DFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* jumbotron */
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F7FF;
+  height: 500px;
+  width: 100%;
+}
+
+.jumbo_img img {
+  width: 100%;
+  height: 90%;
+}
