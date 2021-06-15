@@ -13,11 +13,33 @@ nav {
   margin: auto;
   padding: 10px;
   font-family: "Roboto", sans-serif;
+  list-style: none;
 }
 
 .logo > img {
   width: 4rem;
   height: 4rem;
+}
+
+.link_nav {
+  display: inline;
+}
+.link_nav > a {
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 5px 18px;
+  padding-bottom: 10px;
+}
+.link_nav > a:hover {
+  border-bottom: 2px solid black;
+}
+
+.icons {
+  display: inline;
+  margin: 5px 30px;
+}
+.icons > a {
+  margin: 10px;
 }
 
 .blue_button {
