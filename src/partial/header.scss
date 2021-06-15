@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.logo{
+
+    &>img{
+    width: 4rem;
+    height: 4rem;
+    }
+}
+
+.start_button{
+    padding: 8px;
+    background-color:#377DFF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    width: 6rem;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color:#F2F7FF ;
+  
+    border-radius: 10px;
+}
+
+
