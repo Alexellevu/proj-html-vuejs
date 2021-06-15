@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.font {
+  font-family: "Roboto", sans-serif;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -105,4 +109,50 @@ nav {
 .jumbo_img {
   padding: 15px 2px 10px;
   width: 50%;
+}
+
+.main_container {
+  width: 80%;
+  margin: auto;
+}
+
+.marketing {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0px;
+}
+
+.marketing_card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.marketing_card > img {
+  margin-bottom: 180px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.header_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  height: 200px;
+}
+.header_card > p {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  color: #6CDAC1;
+}
+.header_card > ul {
+  list-style: none;
+  font-weight: bolder;
+}
+.header_card > ul > li {
+  margin: 25px 0px;
+}
+.header_card > ul > li > i {
+  margin-right: 7px;
+  color: #377DFF;
 }
