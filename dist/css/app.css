@@ -186,6 +186,7 @@ nav {
   height: 60px;
 }
 .trik_card:hover {
+  cursor: pointer;
   box-shadow: 5px 5px 8px #6CDAC1;
 }
 .trik_card:hover > .trik_card_text > h4 {
@@ -206,24 +207,44 @@ nav {
 
 .popular_features {
   background-image: url(/img/14.png);
-  background-color: yellow;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -380px 0px;
   font-family: "Roboto", sans-serif;
   padding: 60px;
 }
 
 .head_features {
+  width: 100%;
   display: flex;
   flex-direction: row;
-}
-.head_features > h2 {
-  font-size: 41px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5px;
 }
 
-.text_features {
-  width: 75%;
+.text_features > h2 {
+  font-size: 41px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.blue_button_features {
+  padding: 12px 20px;
+  height: 45px;
+  background-color: #377DFF;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.blue_button_features:hover {
+  background-color: #1E1E1E;
 }
 
 .main_features {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -231,9 +252,21 @@ nav {
 }
 
 .card_features {
-  width: 18%;
+  width: 24%;
+  height: 110px;
   background-color: white;
-  margin: 5px 30px;
-  padding: 8px;
+  margin: 5px 5px;
+  padding: 20px 10px;
   font-size: 20px;
+  border-radius: 5px;
+  border: 0.2px solid #00000026;
+}
+.card_features:hover {
+  background-color: #6CDAC1;
+  cursor: pointer;
+}
+.card_features > img {
+  border-radius: 40px;
+  height: 50px;
+  width: 45px;
 }

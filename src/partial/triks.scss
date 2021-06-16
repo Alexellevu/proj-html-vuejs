@@ -29,6 +29,7 @@
         height: 60px;
     }
     &:hover{
+        cursor: pointer;
         box-shadow:5px 5px 8px $p1color;
         &>.trik_card_text>h4{
             color: $button-color;
