@@ -17,3 +17,22 @@
 .text_features{
     width: 75%;
 }
+
+.main_features{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.card_features{
+    width: 18%;
+    background-color:white ;
+    margin: 5px 30px;
+    padding: 8px;
+    font-size: 20px;
+}
+

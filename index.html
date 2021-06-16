@@ -162,12 +162,17 @@
 
                 <!-- dynamic link of features -->
                 <div class="main_features">
-
+                    <div class="card_features" v-for="feature in features" >
+                      <h5>{{feature.name}} </h5>
+                     <img :src="'./img/features/feature'+ feature.image + '.jpg'" alt="feature_image">
+                    </div>
+                      
                 </div>
             </div>
-
-
+            
+            
         </section>
+       
     </main>
     
     <footer>
