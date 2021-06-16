@@ -28,6 +28,15 @@
         width: 50px;
         height: 60px;
     }
+    &:hover{
+        box-shadow:5px 5px 8px $p1color;
+        &>.trik_card_text>h4{
+            color: $button-color;
+          
+        }
+    }
+
+  
 }
 
 .trik_card_text{
@@ -37,7 +46,7 @@
     &>h4{
         font-size: 30px;
         margin-top:10px ;
-        
+      
     }
 
     

@@ -186,6 +186,12 @@ nav {
   width: 50px;
   height: 60px;
 }
+.trik_card:hover {
+  box-shadow: 5px 5px 8px #6CDAC1;
+}
+.trik_card:hover > .trik_card_text > h4 {
+  color: #377DFF;
+}
 
 .trik_card_text {
   padding: 15px;
