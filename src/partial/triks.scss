@@ -1,0 +1,50 @@
+.col2_bis{
+    width: 50%;
+    height: 500px;
+}
+
+.triks{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    
+
+    
+    &>.col2_bis>h2{
+        font-size:$h2size;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    &>.col2_bis>p{
+        margin-bottom: 40px;
+    }
+}
+
+.trik_card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &>img{
+        width: 50px;
+        height: 60px;
+    }
+}
+
+.trik_card_text{
+    padding: 15px;
+  
+
+    &>h4{
+        font-size: 30px;
+        margin-top:10px ;
+        
+    }
+
+    
+
+}
+
+.img_triks{
+    margin:80px 5px;
+    
+}

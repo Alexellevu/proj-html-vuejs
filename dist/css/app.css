@@ -119,6 +119,7 @@ nav {
 .marketing {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 100px 0px;
 }
 
@@ -155,4 +156,45 @@ nav {
 .header_card > ul > li > i {
   margin-right: 7px;
   color: #377DFF;
+}
+
+.col2_bis {
+  width: 50%;
+  height: 500px;
+}
+
+.triks {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.triks > .col2_bis > h2 {
+  font-size: 41px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.triks > .col2_bis > p {
+  margin-bottom: 40px;
+}
+
+.trik_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.trik_card > img {
+  width: 50px;
+  height: 60px;
+}
+
+.trik_card_text {
+  padding: 15px;
+}
+.trik_card_text > h4 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.img_triks {
+  margin: 80px 5px;
 }
