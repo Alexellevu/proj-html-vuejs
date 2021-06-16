@@ -160,7 +160,6 @@ nav {
 
 .col2_bis {
   width: 50%;
-  height: 500px;
 }
 
 .triks {
@@ -203,4 +202,23 @@ nav {
 
 .img_triks {
   margin: 80px 5px;
+}
+
+.popular_features {
+  background-image: url(/img/14.png);
+  background-color: yellow;
+  font-family: "Roboto", sans-serif;
+  padding: 60px;
+}
+
+.head_features {
+  display: flex;
+  flex-direction: row;
+}
+.head_features > h2 {
+  font-size: 41px;
+}
+
+.text_features {
+  width: 75%;
 }

@@ -1,0 +1,19 @@
+.popular_features{
+    background-image: url(/img/14.png);
+    background-color:yellow ;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px;
+}
+
+.head_features{
+    display: flex;
+    flex-direction: row;
+    
+    &>h2{
+        font-size:$h2size;
+    }
+}
+
+.text_features{
+    width: 75%;
+}
