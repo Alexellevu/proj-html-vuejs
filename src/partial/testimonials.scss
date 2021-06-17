@@ -18,12 +18,17 @@
 
 .testimonial_text{
    margin-top: 5rem;
+   margin-bottom: 4rem;
     
 
    
     &>h2{
         font-size:$h2size;
         margin-bottom: 20px;
+    }
+
+    &>p{
+        color:$p1color;
     }
 
    
@@ -40,15 +45,15 @@
     background-color: #F2F7FF;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:230px 130px;
+    background-size:230px 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: 300px;
     width: 500px;
     margin:20px 40px;
-    padding: 40px;
+    padding: 5px;
     border-radius: 2px;
     box-shadow:1px 7px 1px 8px #0000000D;
 

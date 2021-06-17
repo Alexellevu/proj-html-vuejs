@@ -179,6 +179,7 @@
         <!-- testimonials section -->
     <section class="testimonials">
         <div class="main_container">
+            
             <div class="testimonial">
                 <!-- testimonial text start -->
                 <div class="testimonial_text ">
@@ -217,13 +218,16 @@
         
     </section>
 
+    <!-- posts section -->
     <section class="post_chronology font">
         <div class="main_container">
 
+            <!-- section title -->
         <h2>Latest Posts</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
         <div class="post_container">
+            <!--post's dynamic card  -->
             <div class="post_card" v-for="post in posts">
                 <img :src="'./img/post'+ post.img + '.jpg'"  alt="">
                 <div class="date"><span> {{post.date}} </span></div>
@@ -235,6 +239,60 @@
         </div>
     </section>
 
+    <!-- contact section -->
+    <section class="contact font ">
+        <div class="main_container">
+        <h2>Contact with our team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="map_and_contact">
+            <div class="map">
+                    <img src="./img/StaticMapService.GetMapIma.png" alt="">
+                <div class="info_map">
+                    <span>
+                    <h4>Storey Ave</h4>
+                    <p>San Francisco,Carlifornia 94129</p>
+                    <a href="">Visualizza la mappa più grande</a>
+                    </span>
+                    
+                    <span>
+                        <i class="fas fa-directions"></i>
+                    </span>
+                </div>
+                <div class="photo_mini">
+                    <img src="./img/San_Francisco.jpg" alt="">
+                </div>
+                <div class="zoom_buttons">
+                    <i class="fas fa-plus"></i><hr><i class="fas fa-minus"></i>
+                </div>
+                <div class="pointer"><i class="fas fa-map-marker-alt"></i></div>
+            </div>
+            <div class="contact_form">
+                <img src="./img/35.png" alt="">
+                <div class="info">
+                  
+
+                </div>
+                <div class="social_logos">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Your Subject">
+
+                    <input type="text" placeholder="Your Message">
+                    <a href="">Send Message</a>
+                </div>
+            </div>
+           
+
+        </div>
+        
+        </div>
+    </section>
 
        
     </main>

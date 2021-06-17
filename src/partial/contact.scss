@@ -1,0 +1,94 @@
+.contact{
+    background-color:#F2F7FF;
+    text-align: center;
+    
+    
+    &>.main_container>h2
+    {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size:$h2size;
+    }
+        
+    &>.main_container>p{
+        color:$p1color;
+        margin-bottom: 80px;
+    }
+    
+}
+
+/* map configuration */
+.map_and_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.map{
+    position: relative;
+}
+
+.info_map{
+    background-color: #FFFFFF;
+    width: 60%;
+    position: absolute;
+    top:6px;
+    left: 6px;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+
+    &>span>a{
+       
+        text-decoration: none;
+    }
+
+    &>span>p{
+        color: grey;
+    }
+
+    &>span>i{
+        color:$button-color;
+        font-size: 30px;
+        margin-left: 50px;
+       
+    }
+}
+.photo_mini{
+    &>img{width: 40px;
+    height: 40px;}
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    
+}
+
+.zoom_buttons{
+    background-color:#FFFFFF;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    height: 60px;
+    width: 40px;
+
+    &>hr{
+        margin: 5px;
+    }
+}
+
+.pointer{
+ color: red;
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 35px;
+
+}
+
+/* contact configuration */

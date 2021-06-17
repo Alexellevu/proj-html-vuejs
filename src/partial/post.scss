@@ -1,0 +1,65 @@
+.post_chronology{
+    background-color: #F2F7FF;
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 50px ;
+
+    &>.main_container>h2{
+        margin-bottom: 15px;
+        font-size:$h2size;
+    }   
+    &>.main_container>p{
+        margin-bottom: 40px;
+        color:$p1color ;
+    }
+
+  
+}
+
+
+.post_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.post_card{
+width: 30%;
+
+margin:20px;
+border: 1px solid #00000014;
+border-radius: 2px;
+padding: 10px;
+text-align: left;
+position: relative;
+
+    &>img{
+        width: 100%;
+        height: 200px;
+    }
+
+    &>h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &>p{
+        color:$p1color;
+    }
+}
+
+.date{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 8px 7px;
+
+    &>span{
+        color: $p1color;
+        font-weight: bold;
+    }
+
+}
