@@ -17,6 +17,7 @@
     }
     &>.col2_bis>p{
         margin-bottom: 40px;
+        color: $p1color;
     }
 }
 
@@ -49,7 +50,10 @@
         margin-top:10px ;
       
     }
-
+    
+    &>p{
+        color: $p1color;
+    }
     
 
 }

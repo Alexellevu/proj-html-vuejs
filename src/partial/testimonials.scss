@@ -1,0 +1,22 @@
+.testimonials{
+    background-image: url(/img/15.png);
+    background-repeat: no-repeat;
+    background-position:-300px -20px;
+    height: 400px;
+    background-color:#F2F7FF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.testimonial{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.testimonial_text{
+   margin-top: 8rem;
+    
+}

@@ -174,6 +174,7 @@ nav {
 }
 .triks > .col2_bis > p {
   margin-bottom: 40px;
+  color: #6CDAC1;
 }
 
 .trik_card {
@@ -200,6 +201,9 @@ nav {
   font-size: 30px;
   margin-top: 10px;
 }
+.trik_card_text > p {
+  color: #6CDAC1;
+}
 
 .img_triks {
   margin: 80px 5px;
@@ -224,10 +228,21 @@ nav {
   padding: 30px 5px;
 }
 
+.text_features {
+  width: 80%;
+}
 .text_features > h2 {
   font-size: 41px;
-  margin-bottom: 70px;
-  margin-top: 30px;
+  margin: 12px 0px;
+}
+.text_features > p {
+  margin: 12px 0px;
+  width: 70%;
+}
+
+.button_space {
+  margin: auto;
+  width: 20%;
 }
 
 .blue_button_features {
@@ -238,6 +253,7 @@ nav {
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
+  margin-top: 15px;
 }
 .blue_button_features:hover {
   background-color: #1E1E1E;
@@ -269,4 +285,25 @@ nav {
   border-radius: 40px;
   height: 50px;
   width: 45px;
+}
+
+.testimonials {
+  background-image: url(/img/15.png);
+  background-repeat: no-repeat;
+  background-position: -300px -20px;
+  height: 400px;
+  background-color: #F2F7FF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.testimonial {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial_text {
+  margin-top: 8rem;
 }
