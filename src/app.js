@@ -18,6 +18,7 @@ const app = new Vue({
         {title:'Life Lack Meaning',text:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sapiente corporis nesciunt beatae optio reiciendis, porro fugiat laborum temporibus quia.', img:'_2',date:'June 17,2021'},
         {title:'Life Lack Meaning',text:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sapiente corporis nesciunt beatae optio reiciendis, porro fugiat laborum temporibus quia.', img:'_3',date:'June 18,2021'}
     ]
+        
     },
 
     

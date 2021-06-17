@@ -1,0 +1,17 @@
+.footer_set{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer_menu{
+    width: 20%;
+    &>ul>li{
+        list-style: none;
+    }
+}
+
+.color_footer{
+    background-color: #F2F7FF;
+}
