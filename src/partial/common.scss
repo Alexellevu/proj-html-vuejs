@@ -7,3 +7,16 @@
 .font {
     font-family: 'Roboto', sans-serif;
 }
+
+.text_features{
+    width: 80%;
+    &>h2{
+        font-size:$h2size;
+       margin: 12px 0px;
+    }
+
+    &>p{
+        margin: 12px 0px;  
+        width: 70%;
+    }
+}
