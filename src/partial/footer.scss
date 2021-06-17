@@ -1,7 +1,14 @@
+footer{
+    border-top:1px solid lightgray;
+}
+
 .footer_set{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
+    
+    padding:50px;
     
 }
 
