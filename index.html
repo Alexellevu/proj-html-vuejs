@@ -207,6 +207,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit natus, perferendis accusamus nisi reprehenderit debitis earum dolorum </p>
                 </div>
             </div>
+
             <div class="testimonial_pointer">
                 <i class="fas fa-circle" style="color:#377DFF"></i>
                 <i class="fas fa-circle" ></i>
@@ -215,6 +216,26 @@
         </div>
         
     </section>
+
+    <section class="post_chronology font">
+        <div class="main_container">
+
+        <h2>Latest Posts</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="post_container">
+            <div class="post_card" v-for="post in posts">
+                <img :src="'./img/post'+ post.img + '.jpg'"  alt="">
+                <div class="date"><span> {{post.date}} </span></div>
+                <h4>{{post.title}}  </h4>
+                <p> {{post.text}}  </p>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
        
     </main>
     
