@@ -98,6 +98,8 @@
 
 /* contact configuration */
 
+
+
 .contact_form{
     display: flex;
     flex-direction: column;
@@ -105,7 +107,12 @@
     justify-content: space-around;
     padding: 0px 10px;
     width: 100%;
-    height: 700px;
+    font-family: 'Roboto', sans-serif;
+     &>h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+   
    
    
 
@@ -116,24 +123,68 @@
 
     &>input{
         width: 100%;
-        height: 40px;
-        border:0.5px solid grey;
-        border-radius: 4px;
+        font-size: 15px;
+        border:0.001px solid #8E989F;
+        border-radius: 6px;
+        padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:start;
     }
+
+    &>a{
+        width: 10rem;
+    }
+}
+
+.your_message{
+    
+    height: 250px;
+    padding-bottom:200px ;
+    font-size: 15px;
+    
+}
+
+.set_form{
+    height: 40px;
+    border-radius: 5px;
+    border: 0.1px solid #8E989F;
+    padding-left: 5px;
 }
 
 .info{
     width: 500px;
     text-align: left;
+    margin-top:50px;
+    margin-bottom: 50px;
+    &>h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    &>p{
+        color:$p1color;
+    }
 }
 
 .social_logos{
     color: $button-color;
     font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+    &>i{
+        border: 1px solid #8E989F;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding-top: 5px;
+    }
 }
 
-.message{
 
-    width: 300px;
-}
+
+
 
