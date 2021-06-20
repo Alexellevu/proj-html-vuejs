@@ -430,6 +430,7 @@ nav {
   background-color: #F2F7FF;
   text-align: center;
   width: 100%;
+  padding-bottom: 150px;
 }
 .contact > .main_container > h2 {
   padding-top: 20px;
@@ -541,6 +542,7 @@ nav {
 }
 .contact_form > a {
   width: 10rem;
+  margin-bottom: 20px;
 }
 
 .your_message {
@@ -587,6 +589,15 @@ nav {
 
 footer {
   border-top: 1px solid lightgray;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_menu > p {
+  color: #8E989F;
+}
+.footer_menu > span > a {
+  text-decoration: none;
+  color: #377DFF;
 }
 
 .footer_set {
@@ -601,6 +612,8 @@ footer {
 }
 .footer_menu > ul > li {
   list-style: none;
+  color: #8E989F;
+  margin: 15px 0px;
 }
 
 .color_footer {

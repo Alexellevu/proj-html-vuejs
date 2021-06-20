@@ -1,5 +1,18 @@
 footer{
     border-top:1px solid lightgray;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.footer_menu{
+    &>p{
+        color:$p1color;
+    }
+
+    &>span>a{
+        text-decoration: none;
+        color: $button-color;
+    }
 }
 
 .footer_set{
@@ -16,6 +29,8 @@ footer{
     width: 20%;
     &>ul>li{
         list-style: none;
+        color: $p1color;
+        margin:15px 0px
     }
 }
 
