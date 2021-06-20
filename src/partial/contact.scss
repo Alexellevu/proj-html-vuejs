@@ -31,6 +31,9 @@
 .map{
     position: relative;
     height: 450px;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .info_map{
@@ -153,6 +156,17 @@
     border: 0.1px solid #8E989F;
     padding-left: 5px;
 }
+
+.set_form2{
+    height: 40px;
+    border-radius: 5px;
+    border: 0.1px solid #8E989F;
+    padding-left: 5px;
+    width: 245px;
+    margin-right: 3px;
+}
+
+
 
 .info{
     width: 500px;

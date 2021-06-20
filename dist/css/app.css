@@ -359,6 +359,9 @@ nav {
   height: 60px;
   border-radius: 30px;
 }
+.testimonial_card:hover {
+  cursor: pointer;
+}
 
 .testimonial_card_text {
   display: flex;
@@ -369,6 +372,9 @@ nav {
 
 .testimonial_pointer {
   margin: 30px;
+}
+.testimonial_pointer:hover {
+  cursor: pointer;
 }
 
 .post_chronology {
@@ -412,6 +418,9 @@ nav {
 .post_card > p {
   color: #8E989F;
 }
+.post_card:hover {
+  cursor: pointer;
+}
 
 .date {
   position: absolute;
@@ -452,6 +461,9 @@ nav {
 .map {
   position: relative;
   height: 450px;
+}
+.map:hover {
+  cursor: pointer;
 }
 
 .info_map {
@@ -558,6 +570,15 @@ nav {
   padding-left: 5px;
 }
 
+.set_form2 {
+  height: 40px;
+  border-radius: 5px;
+  border: 0.1px solid #8E989F;
+  padding-left: 5px;
+  width: 245px;
+  margin-right: 3px;
+}
+
 .info {
   width: 500px;
   text-align: left;
@@ -614,6 +635,9 @@ footer {
   list-style: none;
   color: #8E989F;
   margin: 15px 0px;
+}
+.footer_menu > ul > li:hover {
+  cursor: pointer;
 }
 
 .color_footer {

@@ -67,6 +67,10 @@
        border-radius: 30px;
       
     }
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .testimonial_card_text{
@@ -78,4 +82,7 @@
 
 .testimonial_pointer{
     margin: 30px;
+    &:hover{
+        cursor: pointer;
+    }
 }

@@ -47,6 +47,10 @@ position: relative;
     &>p{
         color:$p1color;
     }
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 .date{
